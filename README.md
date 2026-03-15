@@ -1,25 +1,32 @@
 # Sales Performance Analytics Dashboard
+
 An interactive Excel-based dashboard designed to track and visualize regional sales data, executive performance, and target achievement across multiple Indian cities.
 
 ## 📊 Dashboard Preview
 ![Sales Dashboard](./dashboard.png)
 
-## 🎯 Project Objective
-The goal of this project was to analyze sales data to identify top-performing executives and monitor how close each region is to hitting its monthly targets.
+## 🛠️ Technical Workflow & Features
+### 1. Data Structuring (Raw Data)
+* **Performance Metrics:** Calculated total sales over a 5-day period for each Sales Executive.
+* **KPI Formulas:** Implemented dynamic calculations for:
+    * **Target Hit %:** `(Total Sales / Target)`
+    * **Gap Analysis:** `(Away From Target %)`
+* **Data Organization:** Organized data by Employee Code, Region, and Daily Sales to ensure clean Pivot Table sourcing.
 
-## 🛠️ Key Features & Technical Skills
-* **Interactive Slicers:** Dynamic filtering by city (Chennai, Delhi, Mumbai, Nagpur, Patna, Pune, Ranchi, Surat).
-* **Pivot Table Automation:** Automatically summarizes total sales and target percentages.
-* **KPI Visualization:** * **Bar Charts:** For individual executive sales comparisons.
-    * **Pie Charts:** For market share distribution.
-    * **Line Graphs:** To track "Away from Target" trends.
-* **Data Formatting:** Cleaned and structured raw data for accurate reporting.
+### 2. Interactive Dashboard
+* **Dynamic Slicers:** Instant filtering by Region (Mumbai, Delhi, Nagpur, etc.).
+* **Automated Summaries:** Used Pivot Tables to aggregate data from the raw sheet.
+* **Visual Analytics:** * **Bar Charts:** Comparing individual sales totals.
+    * **Pie Charts:** Visualizing the distribution of target achievement.
+    * **Trend Lines:** Tracking the gap between current sales and goals.
 
-## 📂 Files in this Repository
-* `Dashboard project Excel.xlsm`: The full interactive Excel file (Macros/Pivot tables included).
-* `dashboard.png`: A high-resolution screenshot of the final report.
+## 📂 Project Structure
+* `DASHBOARD`: The visual reporting layer for stakeholders.
+* `RAW DATA`: The backend data containing executive-level performance metrics.
 
-## 🚀 How to Use
-1. Download the `.xlsm` file.
-2. Open in Microsoft Excel.
-3. Use the **City Buttons (Slicers)** at the top to filter the data and see the charts update instantly.
+## 🚀 Skills Showcased
+* Data Cleaning & Logic
+* Advanced Excel Formulas
+* Pivot Tables & Pivot Charts
+* Dashboard UI/UX Design
+*
