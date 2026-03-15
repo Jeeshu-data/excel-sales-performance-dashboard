@@ -5,7 +5,7 @@ An interactive Excel-based dashboard designed to track and visualize regional sa
 ## 📊 Dashboard Preview
 ![Sales Dashboard](./dashboard.png)
 
-## 🛠️ Technical Workflow & Features
+##  Technical Workflow & Features
 ### 1. Data Structuring (Raw Data)
 * **Performance Metrics:** Calculated total sales over a 5-day period for each Sales Executive.
 * **KPI Formulas:** Implemented dynamic calculations for:
@@ -20,11 +20,11 @@ An interactive Excel-based dashboard designed to track and visualize regional sa
     * **Pie Charts:** Visualizing the distribution of target achievement.
     * **Trend Lines:** Tracking the gap between current sales and goals.
 
-## 📂 Project Structure
+##  Project Structure
 * `DASHBOARD`: The visual reporting layer for stakeholders.
 * `RAW DATA`: The backend data containing executive-level performance metrics.
 
-## 🚀 Skills Showcased
+##  Skills Showcased
 * Data Cleaning & Logic
 * Advanced Excel Formulas
 * Pivot Tables & Pivot Charts
